@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  podinfo:
+    image: stefanprodan/podinfo:6.4.0
+    ports:
+      - "8898:9898"
+    environment:
+      - PODINFO_UI_MESSAGE=Simple Podinfo Demo
+    restart: unless-stopped
