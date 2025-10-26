@@ -152,7 +152,7 @@ var stacksCreateCmd = &cobra.Command{
 			return fmt.Errorf("failed to create stack: %w", err)
 		}
 
-		fmt.Printf("Stack '%s' created successfully with ID: %d\n", stack, stack)
+		fmt.Printf("Stack '%s' created successfully with ID: %d\n", stack.Name, stack.ID)
 		return nil
 	},
 }
