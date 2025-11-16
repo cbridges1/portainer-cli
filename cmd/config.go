@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/jalenbridges/portainer-cli/pkg/storage"
+	"github.com/cbridges1/portainer-cli/pkg/storage"
 	"github.com/spf13/cobra"
 )
 

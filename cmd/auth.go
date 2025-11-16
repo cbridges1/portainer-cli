@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"syscall"
 
-	portainer "github.com/jalenbridges/portainer-cli/pkg/client"
-	"github.com/jalenbridges/portainer-cli/pkg/storage"
+	portainer "github.com/cbridges1/portainer-cli/pkg/client"
+	"github.com/cbridges1/portainer-cli/pkg/storage"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

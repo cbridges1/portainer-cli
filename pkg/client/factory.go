@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jalenbridges/portainer-cli/pkg/storage"
+	"github.com/cbridges1/portainer-cli/pkg/storage"
 )
 
 func NewAuthenticatedClient() (*Client, error) {

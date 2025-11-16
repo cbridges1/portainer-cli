@@ -7,7 +7,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	portainer "github.com/jalenbridges/portainer-cli/pkg/client"
+	portainer "github.com/cbridges1/portainer-cli/pkg/client"
 	"github.com/sanity-io/litter"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

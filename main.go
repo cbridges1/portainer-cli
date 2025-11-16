@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/jalenbridges/portainer-cli/cmd"
+	"github.com/cbridges1/portainer-cli/cmd"
 )
 
 func main() {
