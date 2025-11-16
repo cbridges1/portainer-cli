@@ -1,4 +1,4 @@
-module github.com/jalenbridges/portainer-cli
+module github.com/cbridges1/portainer-cli
 
 go 1.24.5
 
